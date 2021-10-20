@@ -1,0 +1,144 @@
+body{
+    margin: 0px;
+}
+
+
+
+.nav{
+    background-color:palevioletred;
+    display: flex;
+    align-items: flex-end;
+}
+
+body{
+    margin: 0px;    
+}
+.LOGO{
+    margin-right: 2000px;
+}
+
+
+.zunderzi{
+    text-decoration: none;
+    color:white;
+    width: 200px;
+    margin-left: 760px;
+    font-size: xx-large;
+}
+
+.content1{
+    background-color:cyan;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    padding-top: 0px;
+    justify-content: space-evenly;
+    
+}
+
+.right-container{
+    justify-content: center;
+}
+
+.homebtn{
+    font-size: x-large;
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.productbtn{
+    font-size: x-large;
+    color:black;
+    text-decoration: none;
+    margin-left: 100px ;
+}
+
+.profilebtn{
+    font-size: x-large;
+    color:black;
+    text-decoration: none;
+    margin-left: 50px ;
+}
+
+.contactbtn{
+    font-size:x-large;
+    color:black;
+    text-decoration: none;
+    margin-left: 50px ;
+}
+
+.signupbtn{
+    font-size:x-large;
+    color:black;
+    text-decoration: none;
+    margin-left: 20px ;
+}
+
+.isi-content{
+    display: flex;
+    background: #ffffff;
+    background-size: cover;
+    height: 600px;
+}
+
+.container{
+    padding: 50px;
+    height: 400px;
+    background-color:rgb(28, 248, 248);
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.container h1{
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+form{
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+}
+
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-bottom: 1px solid black;
+}
+
+.btn{
+    width: 100%;
+    background: none;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+.foot{
+    margin-top: 200px;
+    display: flex;
+    background-color: palevioletred;
+    color: white;
+    padding: 10px;
+    align-items: center;
+    font-size: xx-small;
+}
+
+.sosmed{
+    margin-left: 1600px;
+}

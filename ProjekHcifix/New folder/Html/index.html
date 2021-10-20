@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Project HCI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSs/style.css">
+    
+</head>
+</head>
+<body>
+    <header class="nav">
+        <img src="../Asset/LOGO.png" alt="" height="100px" width="100px">
+        <div class="zunder">
+            <h1 class="zunderzi">Zunder Zifflin</h1>
+        </div>
+        
+        
+
+    </header>
+    <div class="content">
+        <div class="content1">
+            <a href="./index.html"class= "homebtn">
+                <p>Home</p>
+              </a>
+
+              <a href="./product.html"class= "productbtn">
+                <p>Product</p>
+              </a>
+
+              <a href="./Comp.html"class= "profilebtn">
+                <p>Profile</p>
+              </a>
+                <a href="./Signup.html"class= "signupbtn">
+                <p>Sign Up</p>
+              </a>
+              <a href="./contacus.html"class= "contactbtn">
+                <p>Contact Us</p>
+              </a>
+
+              
+
+        </div>
+
+        <div class="content2">
+            <div class="right-container" id="slideshow">
+                <img src="../Asset/98409.jpg" class="Slides"  height="200px" width="600px">
+                <img src="../Asset/98411.jpg" class="Slides" height="200px" width="600px">
+                <img src="../Asset/98413.jpg" class="Slides" height="200px" width="600px">
+            </div>
+        </div>
+            <script>
+                var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("Slides");
+
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            slides[slideIndex-1].style.display = "block";  
+            setTimeout(showSlides, 4000); 
+            }
+
+            $("#slideshow > div:gt(0)").hide();
+            </script>
+
+
+
+        <div class="content3">  
+            <div class="isi1">
+                <img src="../Asset/pen1.jpg" alt="" height="270px" width="300px">
+                <div class="isiisi1">
+                    <div class="jual1">
+                        <h1 class="pen">Pen</h1>
+                        <h1 class="pcs1">5 pcs, Pen</h1>
+                    </div>
+                    <div class="dol1">
+                         <h1 class="dollar1">$5.99</h1>
+                    </div>
+                
+                </div>
+            </div>
+            <div class="isi2">
+                <img src="../Asset/cases.jpg" alt="" height="270px" width="300px">
+                <div class="isiisi2">
+                    <div class="jual2">
+                        <h1 class="pencilcase">Pencilcase</h1>
+                        <h1 class="pcs2">1 pcs, Pencilcase</h1>
+                    </div>
+                    <div class="dol2">
+                         <h1 class="dollar2">$6.99</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="isi3">
+                <img src="../Asset/notebook.jpg" alt="" height="270px" width="300px">
+                <div class="isiisi3">
+                    <div class="jual3">
+                        <h1 class="books">Books</h1>
+                        <h1 class="pcs3">5 pcs, Books</h1>
+                    </div>
+                    <div class="dol3">
+                         <h1 class="dollar3">$5.99</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="isi4">
+                <img src="../Asset/bag.jpg" alt="" height="270px" width="300px">
+                <div class="isiisi4">
+                    <div class="jual4">
+                        <h1 class="bag">Bag</h1>
+                        <h1 class="pcs4">1 pcs, Bag</h1>
+                    </div>
+                    <div class="dol4">
+                         <h1 class="dollar4">$15.99</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="foot">
+        <h1> copyright @2021 </h1>
+        <div class="sosmed">
+            <a href="https://twitter.com">
+                <img src="../Asset/twit.png" alt="" height="43px" width="43px">
+            </a>
+            <a href="https://www.youtube.com">
+                <img src="../Asset/yt.png" alt="">
+            </a>
+            <a href="https://www.facebook.com">
+                <img src="../Asset/fb.png" alt="">
+                
+            </a>
+        </div>
+        
+      </footer>
+</body>
+
+</html>

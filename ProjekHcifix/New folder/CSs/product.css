@@ -1,0 +1,350 @@
+.nav{
+    background-color:palevioletred;
+    display: flex;
+    align-items: flex-end;
+}
+
+body{
+    margin: 0px;    
+}
+.LOGO{
+    margin-right: 2000px;
+}
+.zunderzi{
+    text-decoration: none;
+    color:white;
+    width: 200px;
+    margin-left: 560px;
+    font-size: xx-large;
+}
+.zunderbtn{
+    margin-left: 1000px;
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    justify-content:center;
+    
+}
+
+.content1{
+    background-color:cyan;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    padding-top: 0px;
+    justify-content: space-evenly;
+
+    
+}
+
+.homebtn{
+    font-size: x-large;
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.productbtn{
+    font-size: x-large;
+    color:black;
+    text-decoration: none;
+    margin-left: 50px ;
+}
+
+.profilebtn{
+    font-size: x-large;
+    color:black;
+    text-decoration: none;
+    margin-left: 50px ;
+}
+
+.contactbtn{
+    font-size:x-large;
+    color:black;
+    text-decoration: none;
+    margin-left: 50px ;
+}
+
+.signupbtn{
+    font-size:x-large;
+    color:black;
+    text-decoration: none;
+    margin-left: 20px ;
+}
+
+.content2{
+    justify-content: space-evenly;
+    display: flex;
+    height: 465px;;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.isiisi1{
+    display: flex;
+}
+
+.isiisi2{
+    display: flex;
+}
+
+.isiisi3{
+    display: flex;
+}
+
+.isiisi4{
+    display: flex;
+}
+
+.pen{
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-weight: lighter;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.pencilcase{
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-weight: lighter;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.books{
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-weight: lighter;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.bag{
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-weight: lighter;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.pcs1{
+    font-size: medium;
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+.pcs2{
+    font-size: medium;
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+.pcs3{
+    font-size: medium;
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+.pcs4{
+    font-size: medium;
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+.dollar1{
+    margin-left: 150px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.rate1{
+    margin-left: 167px;
+    margin-top: 0px;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+.dollar2{
+    margin-left: 80px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.rate2{
+    margin-left: 98px;
+    margin-top: 0px;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+.dollar3{
+    margin-left: 140px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.rate3{
+    margin-left: 158px;
+    margin-top: 0px;
+    font-weight: lighter;
+    font-size: larger;   
+}
+
+.dollar4{
+    margin-left: 140px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.rate4{
+    margin-left: 175px;
+    margin-top: 0px;
+    font-weight: lighter;
+    font-size: larger;   
+}
+
+.content3{
+    justify-content: space-evenly;
+    display: flex;
+    height: 465px;;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.isiisi5{
+    display: flex;
+}
+
+.isiisi6{
+    display: flex;
+}
+
+.isiisi7{
+    display: flex;
+}
+
+.isiisi8{
+    display: flex;
+}
+
+.eraser{
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-weight: lighter;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.label{
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-weight: lighter;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.marker{
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-weight: lighter;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.ruler{
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-weight: lighter;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.pcs5{
+    font-size: medium;
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+.pcs6{
+    font-size: medium;
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+.pcs7{
+    font-size: medium;
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+.pcs8{
+    font-size: medium;
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+.dollar5{
+    margin-left: 130px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.rate5{
+    margin-left: 148px;
+    margin-top: 0px;
+    font-weight: lighter;
+    font-size: larger;   
+}
+
+.dollar6{
+    margin-left: 140px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.rate6{
+    margin-left: 158px;
+    margin-top: 0px;
+    font-weight: lighter;
+    font-size: larger;   
+}
+
+.dollar7{
+    margin-left: 120px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.rate7{
+    margin-left: 138px;
+    margin-top: 0px;
+    font-weight: lighter;
+    font-size: larger;   
+}
+
+.dollar8{
+    margin-left: 150px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.rate8{
+    margin-left: 167px;
+    margin-top: 0px;
+    font-weight: lighter;
+    font-size: larger;   
+}
+
+.foot{
+    display: flex;
+    background-color: palevioletred;
+    color: white;
+    padding: 10px;
+    align-items: center;
+    font-size: xx-small;
+}
+
+.sosmed{
+    margin-left: 1600px;
+}

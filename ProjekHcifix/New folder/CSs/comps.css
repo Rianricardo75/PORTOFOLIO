@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+}
+
+
+
+.nav{
+    background-color:palevioletred;
+    display: flex;
+    align-items: flex-end;
+}
+
+body{
+    margin: 0px;    
+}
+.LOGO{
+    margin-right: 2000px;
+}
+
+
+.zunderzi{
+    text-decoration: none;
+    color:white;
+    width: 200px;
+    margin-left: 760px;
+    font-size: xx-large;
+}
+
+.content1{
+    background-color:cyan;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    padding-top: 0px;
+    justify-content: space-evenly;
+    
+}
+
+.right-container{
+    justify-content: center;
+}
+
+.homebtn{
+    font-size: x-large;
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.productbtn{
+    font-size: x-large;
+    color:black;
+    text-decoration: none;
+    margin-left: 100px ;
+}
+
+.profilebtn{
+    font-size: x-large;
+    color:black;
+    text-decoration: none;
+    margin-left: 50px ;
+}
+
+.contactbtn{
+    font-size:x-large;
+    color:black;
+    text-decoration: none;
+    margin-left: 50px ;
+}
+
+.signupbtn{
+    font-size:x-large;
+    color:black;
+    text-decoration: none;
+    margin-left: 20px ;
+}
+
+.content2{
+    padding: 30px;
+    margin-top: 100px;
+    margin-left: 430px;
+    background:rgba(255, 79, 240, 0.877);
+    border-radius: 25px;
+    font-size: 20px;
+    color: black;
+    height: 400px;
+    width: 1000px;
+}
+
+
+
+.left-text{
+    text-align: center;
+}
+
+.foot{
+    margin-top: 205px;
+    display: flex;
+    background-color: palevioletred;
+    color: white;
+    padding: 10px;
+    align-items: center;
+    font-size: xx-small;
+}
+
+.sosmed{
+    margin-left: 1600px;
+}
+@media  (max-width: 800px) {
+
+    .content1{
+        display: block;
+    }
+
+    .content2{
+        display:block;
+    }
+
+    .content3{
+        display: block;
+    }
+   
+    
+  }
